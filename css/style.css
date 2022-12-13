@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* ユニバーサルセレクタでデフォルトの余白をリセット */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* サイト共通コンテナ */
+.container {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+header {
+	margin: 60px;
+	color:#4169e1
+}
+
+ #zine_turn{
+	width: 840px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+
+
+#prevpage, #nextpage {
+	cursor: pointer;
+}
